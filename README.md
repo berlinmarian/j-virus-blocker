@@ -44,6 +44,16 @@ Bu proje, X/Twitter anasayfasındaki tweet görsellerinde hedef kişinin yüzün
    - **Load unpacked**
    - Proje içindeki `dist` klasörünü seç
 
+## Kullanım
+
+1.  Chrome eklentiler menüsünden **"j-virus-blocker"** ikonuna tıkla.
+2.  Açılan popup'tan **"Ayarları Aç"** butonuna basarak ayarlar sayfasını aç.
+3.  **Hedef Kişi Profili Ekle/Güncelle** bölümünde bir profil adı gir (örn: `j`).
+4.  Engellemek istediğin kişinin yüzünün net göründüğü, farklı açılardan çekilmiş 10+ fotoğrafını seç.
+5.  **"Profili Eğit (Embed Oluştur)"** butonuna tıkla.
+6.  Profil kaydedildikten sonra, eklenti Twitter/X anasayfanızda çalışmaya başlayacaktır.
+7.  Genel ayarlardan eklentiyi açıp kapatabilir, eşleşme hassasiyetini (`threshold`) ve gizleme modunu (`remove`/`blur`) değiştirebilirsin.
+
 ## Model / Eğitim Süreci
 
 Bu projede klasik anlamda yeniden model eğitimi yerine **embedding tabanlı enrollment** yapılır:
